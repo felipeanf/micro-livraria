@@ -1,4 +1,4 @@
-# Imagem base derivada do Node
+# Imagem base derivada do Node.
 FROM node
 
 # Diretório de trabalho
@@ -11,4 +11,4 @@ COPY . /app
 RUN npm install
 
 # Comando para inicializar (executar) a aplicação
-CMD ["node", "/app/services/shipping/index.js"]
+CMD ["node", "/app/services/shipping/index.js"] 
